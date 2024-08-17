@@ -1,20 +1,20 @@
-# Rock, Paper & Scrissor Game:
+# Rock, Paper & Scissor Game:
 
 # Rock -> 1
 # Paper -> -1
-# Scrissor -> 0
+# Scissor -> 0
 
 import random
 
 AI = random.choice([-1, 1, 0])
 
-print("Welcome To Rock, Paper & Scrissors!")
+print("Welcome To Rock, Paper & Scissors!")
 print("Reffer the Following to Play:")
-print("r -> Rock\np -> Paper\ns -> Scrissors\n")
+print("r -> Rock\np -> Paper\ns -> Scissors\n")
 User_Choice = input("Enter Your Choice: ")
 
 User_Dict = {"r" : 1, "p" : -1, "s" : 0}
-Choices = {1 : "Rock", -1 : "Paper", 0 : "Scrissors"}
+Choices = {1 : "Rock", -1 : "Paper", 0 : "Scissors"}
 user = User_Dict[User_Choice]
 
 print()
@@ -40,7 +40,7 @@ else:
     elif(AI == -1 and user == 0):
         print("Congratulations! You Won...")
         print(f"{Choices[user]} vs {Choices[AI]}")
-        print("Scrissor Wins!")
+        print("Scissor Wins!")
 
     elif(AI == -1 and user == 1):
         print("Oops!!! You Lose...")
@@ -55,7 +55,7 @@ else:
     elif(AI == 0 and user == -1):
         print("Oops!!! You Lose...")
         print(f"{Choices[user]} vs {Choices[AI]}")
-        print("Scrissor Wins!")
+        print("Scissor Wins!")
 
     else:
         print("Something went wrong!")
