@@ -1,0 +1,2 @@
+2024-09-08 18:25:51 | Deposit of Rs.3000.0 | Balance: Rs.13000.0
+2024-09-08 18:26:06 | Withdraw of Rs.1150.0 | Balance: Rs.11850.0
